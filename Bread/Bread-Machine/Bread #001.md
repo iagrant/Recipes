@@ -1,4 +1,4 @@
-## Bread #001 (
+## Bread #001
 
 
 Modified from this [recipe](https://www.fearlessdining.com/gluten-free-bread-machine-bread)
