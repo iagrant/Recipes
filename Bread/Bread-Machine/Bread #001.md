@@ -20,6 +20,7 @@ Wet
 - 2tsp of yeast (reduce at altitude!!)
 - 1 1/2 Cups of water
 
+Rose till it overflowed and then baked for an hour.
 
 ## Lessons learned:
 - At altitude less yeast is needed and some recommend reducing the starches and replacing that volume with heavier flours or just reducing volume entirely.
