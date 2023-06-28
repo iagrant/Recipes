@@ -30,3 +30,4 @@ Wet
 - reduce yeast to 1 1/2 tsp
 - reduce tapioca starch to 1 Cup
 - potentially incread Teff to 1 cup to offset reduction of Tapioca or add 1/4 cup to both Teff & Sorghum.
+- potentially reduce water cuz after saving dough it did sink in a little. Probably save this change for Bread #003.
