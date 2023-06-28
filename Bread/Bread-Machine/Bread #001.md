@@ -11,7 +11,6 @@ Dry
 - 2TBsp of sugar
 - 1tsp of sea salt
 - 1tsp of baking powder 
-- 
 
 Wet
 - 1tsp of chia seeds & 2 teaspons of water to replace 1tsp of xantham gum
@@ -20,7 +19,6 @@ Wet
 - 1tsp of apple cider vinegar
 - 2tsp of yeast (reduce at altitude!!)
 - 1 1/2 Cups of water
-
 
 
 ## Lessons learned:
