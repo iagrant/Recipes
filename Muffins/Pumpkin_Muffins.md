@@ -1,7 +1,7 @@
 Dry:
 - 1c sorghum flour
 - 1/2c millet flour
-- 1/2c teff flour
+- 1/2c cassava or millet flour
 - 1/2tsp Nutmeg
 - 1/4tsp ginger
 - 1/4tsp cloves
