@@ -6,7 +6,7 @@ Dry
 - 1 Cups of Tapioca Starch
 - 2TBsp of ground flaxseed meal
 - 1Tbsp of chia seeds
-- 2TBsp of cane sugar
+- 1/3Cup of Molasses (Grandma's)
 - 1tsp of sea salt
 - 2tsp of baking powder (should've been 1tsp whooops)
 - 1/4tsp of baking soda (accidentally added this)
