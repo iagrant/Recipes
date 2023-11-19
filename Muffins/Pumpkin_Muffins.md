@@ -7,7 +7,7 @@ Dry:
 - 1tsp of cinnamon
 - 1/4tsp Baking Soda
 - 2tsp Baking powder
-- 4tsp psyllium husk
+- 2tsp or 4tsp psyllium husk
 
 Wet:
 - 9T of Just Egg
