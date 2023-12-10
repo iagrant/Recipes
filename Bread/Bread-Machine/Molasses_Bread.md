@@ -16,6 +16,7 @@ Wet
 - 1TBsp of psyllium husk
 - 3TBsp of neutral oil aka canola oil or be fancy with avacado oil
 - 2 Cups of water (add a TBsp or 2 if need to get right texture)
+- 1tsp of Apple Cider Vinegar
 
 Others:
 - 2tsp of yeast
