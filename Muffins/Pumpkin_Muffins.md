@@ -7,7 +7,6 @@ Dry:
 - 1tsp of cinnamon
 - 1/4tsp Baking Soda
 - 2tsp Baking powder
-- 2tsp or 4tsp psyllium husk
 - 1/2c of brown sugar
 
 Wet:
