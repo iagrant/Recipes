@@ -1,7 +1,8 @@
 - 2 cups flour
 - 1 TBsp baking powder
-- ½ TBsp sugar
+- 1/2TBsp sugar
 - 6g psyllium husk
 - 2g xanthan gum
-- ⅓ cup butter
-- 1 cup milk & ½ tsp vinegar
+- 1/4c butter
+- 1 cup milk & 1 tsp vinegar
+	- to replace buttermilk 
