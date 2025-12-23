@@ -7,7 +7,8 @@
 - 1/2tsp xanthum gum
 - 1c milk
 - 1/3c oil
-- 2 fake egg (2T flaxseed meal + 6T water)
+- 2 eggs or fake eggs
+	- 2T flaxseed meal + 6T water
 - 2tsp vanilla
 
 Whisk dry ingredients together then whisk in wet ingredients 
