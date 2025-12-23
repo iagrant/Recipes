@@ -1,0 +1,29 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+/* Increase base font size for that "Storybook" feel */
+body {
+  font-size: 20px; /* Standard is 16px */
+}
+
+/* Optional: Make the headers feel heavier/inkier */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 2rem; /* Give them breathing room */
+}
+
+/* Reset the Explorer (Sidebar) font size */
+.explorer {
+  font-size: 16px; /* or 14px if you want it very compact */
+}
+
+/* Optional: Fix line height so items aren't too spaced out */
+.explorer ul li {
+  line-height: 1.4;
+}
+/* Tighten lists that follow paragraphs */
+p + ul, 
+p + ol {
+  margin-top: -1rem; /* Pulls the list up */
+  padding-top: 0;
+}
