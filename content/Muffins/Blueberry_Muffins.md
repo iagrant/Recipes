@@ -1,3 +1,7 @@
+---
+tags:
+  - old
+---
 Cream together 1/2c sugar with 1/4c shortening/butter (I used [Miyokos](https://www.miyokos.com/products/european-style-plant-milk-butter-unsalted))
 
 Add:

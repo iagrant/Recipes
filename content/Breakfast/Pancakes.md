@@ -1,3 +1,7 @@
+---
+tags:
+  - old
+---
 ## Pancakes
 
 Dry:
