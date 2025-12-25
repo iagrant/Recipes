@@ -12,11 +12,12 @@ export default ((opts?: Options) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
     
-    // --- START RECIPE SCRIPT ---
+    // --- START RECIPE SCRIPT (24H AUTO-RESET) ---
     const recipeScript = `
       document.addEventListener("nav", () => {
         const checkboxes = document.querySelectorAll("input[type='checkbox']");
         const pageKey = window.location.pathname;
+        const ONE_DAY_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
         checkboxes.forEach((cb, index) => {
           const input = cb;
@@ -24,21 +25,33 @@ export default ((opts?: Options) => {
 
           // 1. Enable interaction
           input.removeAttribute("disabled");
-          
-          // Fix for Quartz v4 styling (removes the "disabled" visual look)
           if (input.parentElement) {
             input.parentElement.classList.remove("is-disabled"); 
           }
 
-          // 2. Load saved state from LocalStorage
-          const savedState = localStorage.getItem(uniqueKey);
-          if (savedState === "true") {
-            input.checked = true;
+          // 2. Load state (Expiration Logic)
+          const timestamp = localStorage.getItem(uniqueKey);
+          if (timestamp) {
+            const timeDiff = Date.now() - parseInt(timestamp, 10);
+            if (timeDiff < ONE_DAY_MS) {
+              // Less than 24h ago -> Keep checked
+              input.checked = true;
+            } else {
+              // Expired -> Clear it
+              localStorage.removeItem(uniqueKey);
+              input.checked = false;
+            }
           }
 
           // 3. Save state on change
           input.addEventListener("change", () => {
-            localStorage.setItem(uniqueKey, input.checked.toString());
+            if (input.checked) {
+              // Store current time
+              localStorage.setItem(uniqueKey, Date.now().toString());
+            } else {
+              // Uncheck = clear immediately
+              localStorage.removeItem(uniqueKey);
+            }
           });
         });
       });
