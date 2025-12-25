@@ -1,23 +1,3 @@
-// Top of file
-// @ts-ignore
-import recipeScript from "./scripts/recipe-checkboxes.inline.ts"
-
-// Inside the Footer function's return statement (before the closing </footer>)
-export default ((opts?: Options) => {
-  // ... existing code ...
-  return (
-    <footer class={classes}>
-      {/* ... existing footer content ... */}
-      
-      {/* ADD THIS LINE: */}
-      <script dangerouslySetInnerHTML={{ __html: recipeScript }} />
-<script dangerouslySetInnerHTML={{ __html: recipeScript }} />
-    </footer>
-  )
-}) satisfies QuartzComponentConstructor
-
-
-
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
@@ -31,6 +11,40 @@ export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
+    
+    // --- START RECIPE SCRIPT ---
+    const recipeScript = `
+      document.addEventListener("nav", () => {
+        const checkboxes = document.querySelectorAll("input[type='checkbox']");
+        const pageKey = window.location.pathname;
+
+        checkboxes.forEach((cb, index) => {
+          const input = cb;
+          const uniqueKey = "recipe-" + pageKey + "-" + index;
+
+          // 1. Enable interaction
+          input.removeAttribute("disabled");
+          
+          // Fix for Quartz v4 styling (removes the "disabled" visual look)
+          if (input.parentElement) {
+            input.parentElement.classList.remove("is-disabled"); 
+          }
+
+          // 2. Load saved state from LocalStorage
+          const savedState = localStorage.getItem(uniqueKey);
+          if (savedState === "true") {
+            input.checked = true;
+          }
+
+          // 3. Save state on change
+          input.addEventListener("change", () => {
+            localStorage.setItem(uniqueKey, input.checked.toString());
+          });
+        });
+      });
+    `
+    // --- END RECIPE SCRIPT ---
+
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
@@ -44,6 +58,10 @@ export default ((opts?: Options) => {
             </li>
           ))}
         </ul>
+        
+        {/* INJECT THE SCRIPT HERE */}
+        <script dangerouslySetInnerHTML={{ __html: recipeScript }} />
+        
       </footer>
     )
   }
