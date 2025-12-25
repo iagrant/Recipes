@@ -14,7 +14,7 @@ Dry:
 - 1/8tsp cloves
 
 Wet:
-- 115g (1stick) margarine 
+- 115g (1stick aka 1/2c) margarine 
 	- replace half with neutral oil to be softer and rise more
 - 150g oat milk room temp
 - 1tsp vanilla
