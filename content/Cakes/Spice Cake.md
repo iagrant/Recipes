@@ -30,7 +30,7 @@ Cream Cheese Icing:
 Instructions:
 1. Whisk dry ingredients 
 2. Whisk wet ingredients 
-3. Whisk wet into dry ingredients 
+3. Whisk dry into wet ingredients 
 
 Bake: 350F for 25-30min 
 - usually 30min for me
