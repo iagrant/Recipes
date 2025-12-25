@@ -10,8 +10,8 @@ Wet:
 - 1 cup milk & 1 tsp vinegar - cold!
 	- to replace buttermilk 
 
-Mix dry 
-Add butter 
-Add milk
+1. Whisk dry 
+2. Add butter 
+3. Add milk
 
 Bake 450F for 14mins or more if big
