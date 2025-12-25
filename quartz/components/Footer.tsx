@@ -1,3 +1,23 @@
+// Top of file
+// @ts-ignore
+import recipeScript from "./scripts/recipe-checkboxes.inline.ts"
+
+// Inside the Footer function's return statement (before the closing </footer>)
+export default ((opts?: Options) => {
+  // ... existing code ...
+  return (
+    <footer class={classes}>
+      {/* ... existing footer content ... */}
+      
+      {/* ADD THIS LINE: */}
+      <script dangerouslySetInnerHTML={{ __html: recipeScript }} />
+<script dangerouslySetInnerHTML={{ __html: recipeScript }} />
+    </footer>
+  )
+}) satisfies QuartzComponentConstructor
+
+
+
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import style from "./styles/footer.scss"
 import { version } from "../../package.json"
