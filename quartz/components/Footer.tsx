@@ -17,7 +17,7 @@ export default ((opts?: Options) => {
       document.addEventListener("nav", () => {
         const checkboxes = document.querySelectorAll("input[type='checkbox']");
         const pageKey = window.location.pathname;
-        const ONE_DAY_MS = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+        const ONE_DAY_MS = 12 * 60 * 60 * 1000; // 24 hours in milliseconds
 
         checkboxes.forEach((cb, index) => {
           const input = cb;
