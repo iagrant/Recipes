@@ -3,12 +3,13 @@ Ingredients:
 - [ ] 55g oil
 - [ ] 80g fake milk
 - [ ] 1tsp vanilla 
-- [ ]  120g GF flour 
+- [ ]  120g [[Standard Gluten Free Flour|GF Flour]]
 - [ ] 65g dutch coco powder 
 - [ ] 1tsp baking powder 
 - [ ] 1/2tsp xanthum gum
 - [ ] 1/4 salt
 - [ ] powdered sugar for coating
+- [ ] bakers chocolate to top with
 
 Steps:
 1. Whisk oil, sugar, milk, & vanilla together in a large bowl
