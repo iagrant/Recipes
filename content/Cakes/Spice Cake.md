@@ -31,9 +31,8 @@ Instructions:
 1. Whisk dry ingredients 
 2. Whisk wet ingredients 
 3. Whisk dry into wet ingredients 
-
-Bake: 350F for 25-30min 
-- usually 30min for me
+4. Bake: 350F for 30min 
+5. turn oven off and leave in with the door open for 15mins
 
 Cream Cheese Icing:
 1. Whip cream cheese and margarine untill smooth
