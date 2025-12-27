@@ -1,4 +1,4 @@
-- [ ] 1 cup unsalted butter at room temperature
+- [ ] 1 cup unsalted margarine at room temperature
 - [ ] 1/2 cup granulated sugar
 - [ ] zest of one orange or tangerine (just the orange part, not the bitter white pith)
 - [ ] 1 heaping cup fresh cranberries chopped up
