@@ -1,0 +1,21 @@
+- [ ] 100g margarine melted and **cooled!**
+- [ ] 70g fine white sugar
+- [ ] 120g dark brown sugar (if using light reduce flour by 20g)
+- [ ] 1 flaxegg 
+	- 1Tbsp flaxseed meal + 3Tbsp of water let sit for 10-15mins
+- [ ] 1Tsp vanilla 
+- [ ] 240g GF Flour (2:1:1 Tapioca:Millet:Sorghum)
+- [ ] 1/2tsp xanthum (increase by 1/8-1/4tsp if using fake egg)
+- [ ] 1/2tsp baking soda
+- [ ] 1tsp baking powder 
+- [ ] 1/2tsp salt
+- [ ] 50g chocolate chips
+- [ ] 50g dark chocolate chips or chopped blocks
+
+- Cream sugars with butter
+- add in flaxegg & vanilla
+- whisk dry ingredients in separate bowl
+- add dry to wet
+- Bake 350F 12 or 14mins
+- cool on sheet for 5-10mins
+- then rest on racks or eat em
