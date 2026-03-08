@@ -25,11 +25,13 @@ Cream cheese icing:
     ▢ ½ tsp vanilla bean paste (or 1 tsp vanilla extract)
     ▢ 5 g (1 tsp) whole milk, room temperature 
 
-Whisk all the wet ingredients together 
-Whisk all the dry ingredients together 
-Mix the dry into the wet via whisk or mixer and beat the hell out of it.
+- Whisk all the wet ingredients together 
+- Whisk all the dry ingredients together 
+- Mix the dry into the wet via whisk or mixer and beat the hell out of it.
+- Dump cake batter into 9x9 pan with parchment paper 
+- scoop cinnamon topping in to circles all around cake then swirl a bunch with a knife 🗡️ 
 
 Bake 350F 40mins
-Give pan a wiggle/shake to see if it jiggles
+- Give pan a wiggle/shake to see if it jiggles
 
 Let rest for 20mins the put icing on 
