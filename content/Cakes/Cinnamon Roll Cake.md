@@ -23,7 +23,7 @@ Cream cheese icing:
     ▢ 115 g (½ cup) violife vegan cream cheese, room temperature
     ▢ 120 g (1 cup) powdered/icing sugar
     ▢ ½ tsp vanilla bean paste (or 1 tsp vanilla extract)
-    ▢ 5 g (1 tsp) whole milk, room temperature 
+    ▢ 5 g (1 tsp) oat milk, room temperature 
 
 - Whisk all the wet ingredients together 
 - Whisk all the dry ingredients together 
