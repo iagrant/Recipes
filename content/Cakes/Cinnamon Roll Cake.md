@@ -1,3 +1,9 @@
+---
+tags:
+  - delicious
+  - easy
+  - quick
+---
 Original recipe: [here](https://theloopywhisk.com/2026/02/20/gluten-free-cinnamon-roll-cake/)
 Ingredients
 Vanilla cake:

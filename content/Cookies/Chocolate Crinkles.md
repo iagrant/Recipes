@@ -1,3 +1,8 @@
+---
+tags:
+  - delicious
+  - easy
+---
 Ingredients:
 - [ ] 150g sugar
 - [ ] 55g oil
