@@ -1,0 +1,13 @@
+- [ ] pork tenderloin 
+- [ ] 1TBSP of brown sugar
+- [ ] 1/2tsp of smoked paprika
+- [ ] 1/2tsp of garlic powder
+- [ ] 1/2tsp of onion powder
+- [ ] 1/2tsp of chili powder 
+- [ ] 1/2tsp of Italian seasoning 
+- [ ] 1/2tsp of salt
+- [ ] 1/2tsp of black pepper 
+- [ ] slices of fake butter ontop 
+
+- Bake 400F for 25-35mins until 145F temp 
+- Cover for 10mins out of oven covered in foil
