@@ -9,6 +9,19 @@ const emitThemeChangeEvent = (theme: "light" | "dark") => {
   document.dispatchEvent(event)
 }
 
+let isPrinting = false
+const onBeforePrint = () => {
+  isPrinting = true
+}
+const onAfterPrint = () => {
+  // Delay reset so any trailing media-query events fired after print close are still ignored.
+  setTimeout(() => {
+    isPrinting = false
+  }, 500)
+}
+window.addEventListener("beforeprint", onBeforePrint)
+window.addEventListener("afterprint", onAfterPrint)
+
 document.addEventListener("nav", () => {
   const switchTheme = () => {
     const newTheme =
@@ -19,6 +32,7 @@ document.addEventListener("nav", () => {
   }
 
   const themeChange = (e: MediaQueryListEvent) => {
+    if (isPrinting) return
     const newTheme = e.matches ? "dark" : "light"
     document.documentElement.setAttribute("saved-theme", newTheme)
     localStorage.setItem("theme", newTheme)

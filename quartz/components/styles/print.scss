@@ -1,0 +1,128 @@
+.printbutton {
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  background: none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  text-align: inherit;
+  flex-shrink: 0;
+  color: var(--darkgray);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    transition: opacity 0.1s ease;
+  }
+
+  &:hover svg {
+    opacity: 0.7;
+  }
+}
+
+#print-qr-code {
+  display: none;
+}
+
+@media print {
+  @page {
+    margin: 0;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    margin: 1.5cm !important;
+  }
+
+  // Hide everything except the article content and the QR code.
+  .sidebar,
+  .header,
+  footer,
+  .footer,
+  .breadcrumb-container,
+  .content-meta,
+  .tags,
+  .backlinks,
+  .toc,
+  .toc-content,
+  .graph,
+  #quartz-body > .left,
+  #quartz-body > .right,
+  .page-footer,
+  .search,
+  .darkmode,
+  .readermode,
+  .printbutton,
+  .mobile-only {
+    display: none !important;
+  }
+
+  #quartz-body,
+  .page,
+  article {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  article {
+    padding-right: 130px !important; // leave room for QR in top-right
+  }
+
+  a,
+  a:visited {
+    color: #000 !important;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+    color: #000 !important;
+  }
+
+  img,
+  table,
+  pre,
+  blockquote,
+  figure {
+    page-break-inside: avoid;
+  }
+
+  #print-qr-code {
+    display: block;
+    position: fixed;
+    top: 1.5cm;
+    right: 1.5cm;
+    width: 110px;
+    text-align: center;
+    z-index: 9999;
+
+    svg {
+      width: 96px;
+      height: 96px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .print-qr-url {
+      font-size: 7pt;
+      color: #000;
+      word-break: break-all;
+      margin-top: 2px;
+      line-height: 1.1;
+    }
+  }
+}

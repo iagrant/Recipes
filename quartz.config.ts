@@ -21,7 +21,7 @@ const config: QuartzConfig = {
         // "Lora" looks like high-quality print; "Patrick Hand" looks like handwriting
         // specific choice: "Lora" for headers, "Inter" or "Lato" for readability
         header: "Patrick Hand", 
-        body: "Nunito",
+        body: "Atkinson Hyperlegible Next",
         code: "IBM Plex Mono",
       },
       colors: {
