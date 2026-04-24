@@ -1,0 +1,12 @@
+- [[Standard Gluten Free Flour]]
+- Country Crock Vegan Butter
+	- or another vegan butter with a high fat % 70-80% 
+- Flaxseed meal to replace eggs
+	- 1Tbsp of flaxseed meal + 3Tbsp of water
+	- can be finicky on 3+ egg recipes 
+- Oat milk or other vegan milk alternative. 
+	- Canned coconut milk can be great due to high fat content
+	- water works for somethings in a pinch
+- Violife Vegan Cream Cheese
+	- Philadelphia CC is too sour imo
+- Tamari or GF soy sauce 
