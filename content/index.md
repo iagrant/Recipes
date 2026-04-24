@@ -6,8 +6,14 @@ title: Ian's Recipes
 
 [[Bread]] 
 
+[[Cakes]]
+
 [[Cookies]] 
+
+[[Dinner]]
 
 [[Muffins]] 
 
-[[Cakes]]
+[[Pantry]]
+
+[[Sides]]
