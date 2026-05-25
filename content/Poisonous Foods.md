@@ -1,11 +1,7 @@
-Gluten 
-- Wheat, Barley, Rye, etc.. 
-- [Sources of Gluten](https://celiac.org/gluten-free-living/what-is-gluten/sources-of-gluten/)
-
-Dairy 
-
-Eggs
-
-Chickpeas / Garbanzo Beans
-
-Almonds
+- Gluten 
+	- Wheat, Barley, Rye, etc.. 
+	- [Sources of Gluten](https://celiac.org/gluten-free-living/what-is-gluten/sources-of-gluten/)
+- Dairy 
+- Eggs
+- Chickpeas / Garbanzo Beans
+- Almonds
