@@ -3,5 +3,5 @@ Gluten
 - [Sources of Gluten](https://celiac.org/gluten-free-living/what-is-gluten/sources-of-gluten/)
 Dairy 
 Eggs
-Chickpeas 
+Chickpeas / Garbanzo Beans
 Almonds
